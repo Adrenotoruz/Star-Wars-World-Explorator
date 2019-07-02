@@ -1,0 +1,23 @@
+table {
+    font-size: 1.25rem;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+div {
+    text-align: center;
+}
+
+.tableKeyValues {
+    text-align: left;
+    vertical-align: top;
+}
+
+.tableValues {
+    text-align: justify;
+    text-align-last: right;
+    vertical-align: top;
+    margin: 0 auto;
+    padding: 0rem 0rem 1rem 2.5rem;
+}

@@ -1,0 +1,40 @@
+body{
+    color: yellow;
+}
+
+form{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+form div {
+    font-family: 'Arial Black';
+    font-size: 0.8rem;
+    width: 7.5rem;
+} 
+
+form > :nth-child(3) {
+    width: 100%;
+    margin-top: 2rem;
+} 
+
+select, input {
+    width: 7.5rem;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: SFDistantGalaxyAltOutline;
+    src: url('../fonts/SF Distant Galaxy AltOutline.ttf');
+  }
+
+#Title p {
+    font-family: SFDistantGalaxyAltOutline;
+    font-size: 4.25rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
