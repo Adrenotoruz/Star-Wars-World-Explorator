@@ -17,7 +17,7 @@ class App extends Component {
 
   updateStatewithFetchedData = async (dataOption, optionNumber) => {
     this.setState({isDataFetched: false})
-    const fetchData = await fetch(`https://swapi.co/api/${dataOption}/${optionNumber}/`)
+    const fetchData = await fetch(`https://swapi.dev/api/${dataOption}/${optionNumber}/`)
     const fetchDataToJson = await fetchData.json();
     this.setState({
       fetchedJson: fetchDataToJson,

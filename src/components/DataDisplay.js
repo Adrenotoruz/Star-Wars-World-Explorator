@@ -6,7 +6,7 @@ const DisplayData = ({fetchedDataInJson}) => {
     const printElementsWithLineBreaks = (contentArray) => {
         const clearContentElement = (contentElement) => {
             return  contentElement  
-                    .replace("https://swapi.co/api/", '')
+                    .replace("https://swapi.dev/api/", '')
                     .slice(0, -1)
                     .replace("/", ": ");
         }
